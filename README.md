@@ -18,27 +18,30 @@ stories
 price
 
 step for setup
-If you don't have virtualenv installed, you can install it via pip
+virtualenv installed,  install it via pip
 pip install virtualenv
 virtualenv env
+
+
 After creating the environment, you need to activate it
 .\env\Scripts\activate.
 after that install
 flask - pip install flask
 pip install pandas scikit-learn
+
+
 Place the housing.csv dataset in the root folder of your project.
 Run the following script to train the model and save it to model.pkl: - python train_model.py
-To make predictions with the trained model,  use the following code in your Python scrip : import pickle
-model = pickle.load(open('model.pkl', 'rb'))
-new_data = [[3, 2, 1500, 2]]
-predicted_price = model.predict(new_data)
-print(f"Predicted Price: {predicted_price}")
+
  File Structure
  housing.csv          # Dataset file
  train_model.py       # Script to train the model
  model.pkl            # Saved machine learning model
  requirements.txt     # Python dependencies
  README.md            # Project documentation
+
+
+ 
 Requirements
 Python 
 Pandas
