@@ -31,14 +31,14 @@ pip install pandas scikit-learn
 
 
 Place the housing.csv dataset in the root folder of your project.
-Run the following script to train the model and save it to model.pkl: - python train_model.py
+Run the following script to train the model and save it to model.pkl - python train_model.py
 
  File Structure
- housing.csv          # Dataset file
- train_model.py       # Script to train the model
- model.pkl            # Saved machine learning model
- requirements.txt     # Python dependencies
- README.md            # Project documentation
+ housing.csv          Dataset file
+ train_model.py       Script to train the model
+ model.pkl            Saved machine learning model
+ requirements.txt     Python dependencies
+ README.md            Project documentation
 
 
  
